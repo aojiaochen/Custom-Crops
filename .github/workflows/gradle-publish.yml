@@ -18,6 +18,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+    workflow_dispatch:  # 这一行是添加的手动触
 
     steps:
     - uses: actions/checkout@v4
